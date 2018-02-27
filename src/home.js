@@ -32,10 +32,10 @@ class Home extends React.Component {
                                 <div className="cry-search">
                                     <form className="form-inline my-2 my-lg-0">
                                         <div className="input-group">
-                                            <input className="form-control" type="text" placeholder="Search currencies..." />
+                                            <input className="form-control search-currency" type="text" placeholder="Search currencies..." />
                                             <span className="input-group-append">
                                             <button className="btn btn-primary btn-search" type="button">
-                                              <i className="fa fa-search"></i>
+                                              <span className="icon-magnifier"></span>
                                             </button>
                                           </span>
                                         </div>
